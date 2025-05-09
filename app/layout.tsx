@@ -24,14 +24,14 @@ const faviconVersion = "v1.2"; // Declare it here
 export const metadata: Metadata = {
   title: {
     template: "%s | Welcome to Fix Zone",
-    default: "Fix Zone – Fast & Reliable Mobile Repair Experts Near You",
+    default: "Fix Zone – Fast & Reliable Mobile Repair Experts",
   },
   description: "Looking for quick and trusted phone repairs? At Fix Zone, we fix cracked screens, battery issues, and more—all at unbeatable prices. Walk in today and experience professional service with a personal touch.",
   icons: {
     icon: [
-      // `/assets/logo/Author-Logo.png?v=${faviconVersion}`,
-      // "/favicon.ico",
-      { url: "/assets/logo/fix-zone-2.png" },
+      `/assets/logo/fix-zone-2.png?v=${faviconVersion}`,
+      "/favicon.ico",
+      // { url: "/assets/logo/fix-zone-2.png" },
     ],
   },
 };
