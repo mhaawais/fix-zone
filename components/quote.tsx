@@ -49,7 +49,7 @@ const Quote = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#d6e9da] flex items-center justify-center px-4 py-12">
+    <div className="min-h-screen bg-[#f9f9f9] flex items-center justify-center px-4 py-12">
       <div className="flex flex-col-reverse lg:flex-row items-center gap-10 w-full max-w-6xl">
 
         {/* Google Rating Badge */}
@@ -130,7 +130,7 @@ const Quote = () => {
             ></textarea>
             <button
               type="submit"
-              className="w-full bg-[#7ed956] text-white p-3 rounded-md hover:bg-green-600 transition"
+              className="w-full bg-green-400 text-black p-3 rounded-md hover:bg-green-600 transition"
             >
               Get A Quote
             </button>

@@ -105,7 +105,7 @@ const Testimonial = () => {
   const visibleReviews = reviews.slice(index, index + 4);
 
   return (
-    <div className="bg-[#d6e9da] py-10 px-4">
+    <div className="bg-[#f9f9f9] py-10 px-4">
       <div className="max-w-7xl mx-auto text-center">
         <div className="text-center mb-12">
           <h2 className="text-black text-4xl lg:text-5xl font-bold mb-8">CUSTOMER TESTIMONIALS</h2>
@@ -125,7 +125,7 @@ const Testimonial = () => {
 
         <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 px-6">
           {visibleReviews.map((review, i) => (
-            <div key={i} className="bg-white hover:bg-green-200 transition duration-300 rounded-lg p-6 shadow-md text-left">
+            <div key={i} className="bg-green-100 hover:bg-green-200 transition duration-300 rounded-lg p-6 shadow-md text-left">
               <div className="flex flex-col gap-1 mb-2">
                 <span className="font-bold text-black capitalize text-lg">{review.name}</span>
                 <span className="text-gray-500 text-sm">{review.date}</span>

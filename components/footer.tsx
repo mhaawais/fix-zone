@@ -5,7 +5,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className=" bg-[#d6e9da] w-full text-center px-4 py-16">
+    <footer className="bg-[#f9f9f9] w-full text-center px-4 py-16">
       {/* Heading */}
       <h2 className="text-black text-3xl lg:text-4xl font-bold mb-4">Let’s Fix Your Devices</h2>
 
@@ -17,7 +17,7 @@ const Footer = () => {
       {/* Call Button */}
       <a
         href="tel:(346) 424-8465"
-        className="bg-[#7ed956] text-black font-medium px-6 py-3 rounded hover:bg-green-600 transition inline-flex items-center gap-3 mb-10"
+        className="bg-green-300 text-black font-medium px-6 py-3 rounded hover:bg-green-600 transition inline-flex items-center gap-3 mb-10"
       >
         <FaPhoneAlt className="text-lg" />
         Call Us

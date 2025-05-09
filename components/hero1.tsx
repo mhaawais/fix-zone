@@ -6,7 +6,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 const Hero1 = () => {
   return (
-    <div className="bg-[#d6e9da] w-full flex flex-col lg:flex-row items-center justify-center px-4 lg:px-20 py-10">
+    <div className="bg-[#f9f9f9] w-full flex flex-col lg:flex-row items-center justify-center px-4 lg:px-20 py-10">
       {/* Left Image Section */}
       <div className="w-full lg:w-1/2 flex justify-center mb-8 lg:mb-0">
         <div className="rounded-3xl overflow-hidden shadow-lg">
@@ -30,7 +30,7 @@ const Hero1 = () => {
         {/* Call Button */}
         <a
           href="tel:(346) 424-8465"
-          className="bg-[#7ed956] text-orange-600 rounded-lg px-6 py-4 flex items-center gap-3 font-semibold shadow-md hover:bg-green-600 transition w-full lg:w-auto"
+          className="bg-green-300 text-orange-600 rounded-lg px-6 py-4 flex items-center gap-3 font-semibold shadow-md hover:bg-green-600 transition w-full lg:w-auto"
         >
           <FaPhoneAlt className="text-2xl text-orange-500" />
           <div className="text-left">
