@@ -18,7 +18,7 @@ const Header = () => {
 
   return (
     <div
-      className={`bg-[#d6e9da] flex justify-center items-center px-1 sm:px-2 md:px-6 lg:px-14 py-5 sticky top-0 z-50 transition-shadow duration-300 ${
+      className={`bg-[#e4efe9] flex justify-center items-center px-1 sm:px-2 md:px-6 lg:px-14 py-5 sticky top-0 z-50 transition-shadow duration-300 ${
         scrolled ? 'shadow-md' : ''
       }`}
     >
