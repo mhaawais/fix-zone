@@ -5,11 +5,11 @@ import { FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 
 const Hero3 = () => {
   return (
-    <div className="bg-[#7ed956] w-full px-4 lg:px-20 py-16">
+    <div className="bg-[#d6e9da] w-full px-4 lg:px-20 py-16">
       {/* Top Headings */}
       <div className="text-center mb-12">
-        <h2 className="text-white text-4xl lg:text-5xl font-bold mb-8">We Are Just A Call Away</h2>
-        <p className="text-white text-lg lg:text-xl">
+        <h2 className="text-black text-4xl lg:text-5xl font-bold mb-8">We Are Just A Call Away</h2>
+        <p className="text-black text-lg lg:text-xl">
           If you want to ask any questions, feel free to contact us. Our team will be happy to guide you!
         </p>
       </div>
@@ -30,7 +30,7 @@ const Hero3 = () => {
         </div>
 
         {/* Contact Info Box */}
-        <div className="w-full lg:w-1/3 bg-green-100 rounded-2xl p-10 shadow-lg min-h-[400px] flex flex-col justify-center">
+        <div className="w-full lg:w-1/3 bg-green-200 rounded-2xl p-10 shadow-lg min-h-[400px] flex flex-col justify-center">
           <h2 className="text-3xl font-semibold text-gray-800 mb-10">Contact Info</h2>
 
           {/* Location Info */}

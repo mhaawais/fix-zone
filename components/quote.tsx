@@ -49,7 +49,7 @@ const Quote = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#7ed956] flex items-center justify-center px-4 py-12">
+    <div className="min-h-screen bg-[#d6e9da] flex items-center justify-center px-4 py-12">
       <div className="flex flex-col-reverse lg:flex-row items-center gap-10 w-full max-w-6xl">
 
         {/* Google Rating Badge */}
@@ -81,7 +81,7 @@ const Quote = () => {
               ✅ Your quote request has been sent successfully
             </div>
           )}
-          <h2 className="text-3xl font-bold text-center text-[#0a114f] mb-8">
+          <h2 className="text-3xl font-bold text-center text-black mb-8">
             Get Free Quote
           </h2>
           <form onSubmit={handleSubmit} className="space-y-4">

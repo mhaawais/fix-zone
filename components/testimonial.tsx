@@ -105,11 +105,11 @@ const Testimonial = () => {
   const visibleReviews = reviews.slice(index, index + 4);
 
   return (
-    <div className="bg-[#7ed956] py-10 px-4">
+    <div className="bg-[#d6e9da] py-10 px-4">
       <div className="max-w-7xl mx-auto text-center">
         <div className="text-center mb-12">
-          <h2 className="text-white text-4xl lg:text-5xl font-bold mb-8">CUSTOMER TESTIMONIALS</h2>
-          <p className="text-white text-lg lg:text-xl">
+          <h2 className="text-black text-4xl lg:text-5xl font-bold mb-8">CUSTOMER TESTIMONIALS</h2>
+          <p className="text-black text-lg lg:text-xl">
             See what our happy customers are saying about us!
           </p>
         </div>

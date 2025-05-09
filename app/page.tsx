@@ -10,7 +10,7 @@ import Quote from "@/components/quote";
 
 export default function Home() {
   return (
-    <div className="bg-[#7ed956]">
+    <div>
       <Header />
       <Hero />
       <Hero1 />

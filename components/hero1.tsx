@@ -6,7 +6,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 const Hero1 = () => {
   return (
-    <div className="bg-[#7ed956] w-full flex flex-col lg:flex-row items-center justify-center px-4 lg:px-20 py-10">
+    <div className="bg-[#d6e9da] w-full flex flex-col lg:flex-row items-center justify-center px-4 lg:px-20 py-10">
       {/* Left Image Section */}
       <div className="w-full lg:w-1/2 flex justify-center mb-8 lg:mb-0">
         <div className="rounded-3xl overflow-hidden shadow-lg">
@@ -21,7 +21,7 @@ const Hero1 = () => {
       </div>
 
       {/* Right Text Section */}
-      <div className="w-full lg:w-1/2 text-white flex flex-col items-start px-4">
+      <div className="w-full lg:w-1/2 text-black flex flex-col items-start px-4">
         <h2 className="text-3xl lg:text-4xl font-bold mb-6">What We Do</h2>
         <p className="text-lg leading-relaxed mb-6">
           Is your smart gadget not working like it is supposed to? Well, in that case, you have come to the right place.<b> FIX ZONE </b> has a solution to every problem you have with your device. Whether a broken screen on a cell phone is bothering you or your laptop is overheating, we can deal with everything. All you have to do is visit us, and our trained team will take care of the rest. They’ll listen to your problems and give you tailored solutions. So, why wait anymore? Visit us today!
@@ -30,7 +30,7 @@ const Hero1 = () => {
         {/* Call Button */}
         <a
           href="tel:(346) 424-8465"
-          className="bg-green-200 text-orange-600 rounded-lg px-6 py-4 flex items-center gap-3 font-semibold shadow-md hover:bg-green-300 transition w-full lg:w-auto"
+          className="bg-[#7ed956] text-orange-600 rounded-lg px-6 py-4 flex items-center gap-3 font-semibold shadow-md hover:bg-green-600 transition w-full lg:w-auto"
         >
           <FaPhoneAlt className="text-2xl text-orange-500" />
           <div className="text-left">
